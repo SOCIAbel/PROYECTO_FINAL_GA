@@ -9,10 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/VederQC/BilleteraDigital-main.git
+          uri: https://github.com/SOCIAbel/PROYECTO_FINAL_GA.git
           searchPaths:
             - config-data
-          default-label: abelga
+          default-label: main
 
   security:
     user:
