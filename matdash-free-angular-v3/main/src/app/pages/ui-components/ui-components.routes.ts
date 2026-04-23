@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { AppMenuComponent } from './menu/menu.component';
-import { PlancontableComponent } from './plancontable/plancontable.component';
+
 
 export const UiComponentsRoutes: Routes = [
   {
@@ -72,10 +72,7 @@ export const UiComponentsRoutes: Routes = [
             m => m.AppSubcategoriasComponent
           ),
       },
-      {
-        path :'plancontable', 
-        component :PlancontableComponent
-      }
+     
     ],
   },
 ];
